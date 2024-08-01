@@ -747,5 +747,10 @@
     .footer p {
         margin-top: 167px;
     }
+    .footer .btn-section {
+        position: relative;
+        left: 1px;
+    }
 }
+
 
