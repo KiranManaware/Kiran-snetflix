@@ -616,7 +616,16 @@
         }
             
     }
-
+    #tv3 .img-section {
+        img {
+            width: 475px;
+        }
+        video{
+            width: 300px;
+            position: relative;
+            bottom: 45%;
+        }
+    }
     .faq-section p{
         margin-inline: 20px;
         font-size: 1.2rem;
@@ -632,10 +641,18 @@
         margin-bottom: 20px;
     }
     .footer{
-        height: 600px;
+        height: auto;
+        padding-bottom:40px ;
     }
     .footer .lists{
         margin-bottom: 150px
+    }
+    .footer .btn-section {
+        position: relative;
+        left: 200px;
+    }
+    .footer p{
+        margin-block: 30px;
     }
 }  
 
@@ -704,6 +721,31 @@
             width: 186px;
             /* height: 400px; */
         }
+    }
+}
+
+@media (max-width:320px) {
+    .navbar span button:nth-child(2) {
+        display: none;
+    }
+    #btn-sec2 input {
+        width: 100%;
+    }
+    .faq-section span {
+        width: 100%;
+        padding-inline: 20px;
+       
+    }
+    .footer{
+        height: 900px;
+    }
+    
+    .footer .btn-section {
+        position: relative;
+        top:100px
+    }
+    .footer p {
+        margin-top: 167px;
     }
 }
 
