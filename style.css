@@ -691,13 +691,13 @@
     #tv2{
         .img-section{
             height: 400px;
-            border:2px solid white;
+            /* border:2px solid white; */
             padding: 0;
         }
     }
     #tv2 {
         .img-section img:first-child {
-            border: 1px solid red;
+            /* border: 1px solid red; */
             width: 166%;
         }
     }
@@ -724,7 +724,7 @@
     }
 }
 
-@media (max-width:320px) {
+@media (max-width:350px) {
     .navbar span button:nth-child(2) {
         display: none;
     }
@@ -752,5 +752,7 @@
         left: 1px;
     }
 }
+
+
 
 
