@@ -501,6 +501,7 @@
     .faq-section span{
         width: 600px;
         flex-direction: row;
+        flex-wrap: wrap;
     }
     .faq-section p {
         font-size: 1rem;
@@ -511,7 +512,7 @@
         height: 40px;
         font-size: 1rem;
     }
-}
+
     #btn-sec2 button{
         width: 150px;
         height: 40px;
